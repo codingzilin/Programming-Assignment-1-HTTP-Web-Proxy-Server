@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Date: Thu, 27 Mar 2025 01:11:14 GMT
+Content-Type: application/json
+Content-Length: 254
+Connection: keep-alive
+Server: gunicorn/19.9.0
+Cache-Control: public, max-age=0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Host": "localhost", 
+    "User-Agent": "curl/8.7.1", 
+    "X-Amzn-Trace-Id": "Root=1-67e4a5b1-68c823f02902cded013b7a70"
+  }, 
+  "origin": "129.127.202.11", 
+  "url": "http://localhost/cache/0"
+}
