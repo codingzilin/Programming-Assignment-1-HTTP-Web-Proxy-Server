@@ -126,7 +126,9 @@ while True:
     # ~~~~ END CODE INSERT ~~~~
     cacheFile.close()
     print ('Sent to the client:')
-    print ('> ' + cacheData)
+    # print ('> ' + cacheData)
+    for line in cacheData:
+      print ('> ' + line.strip())
   except:
     # cache miss.  Get resource from origin server
     originServerSocket = None
